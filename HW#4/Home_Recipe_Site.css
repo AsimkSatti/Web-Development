@@ -1,0 +1,30 @@
+*{
+	margin:0px;
+	padding:0px;
+		background-color:#242424;
+}
+
+article{
+	
+
+
+}
+h2{
+	color:white;
+	font-family: 'Josefin Slab', serif;
+	font-size:30px;
+	text-align: center;
+padding-left:50%;
+	padding-right: 50%;
+	padding-top: 50%;
+	
+	
+}
+
+a:hover{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}

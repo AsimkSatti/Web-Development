@@ -1,0 +1,181 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+.container{
+	background-color:White;
+
+	padding:1%;
+}
+nav {
+/*	display:inline;*/
+	display:inline-block;
+	margin-top:50px;
+	margin-right:40px;
+
+	float:right;
+	clear:both;
+}
+
+nav ul li{
+	display:inline;
+	margin:15px;
+}
+
+/*nav .drop:hover{
+	margin:50px 75px;
+	background-color: yellow;
+
+}*/
+
+words{
+	color:rgba(255,222,173,1);
+	margin-left:20%;
+	margin-top:10px;
+	font-size:50px;
+	font-weight:750;
+	font-family: 'Alice', serif;
+
+}
+aside{
+	display: inline-block;
+	background-color:rgba(255,222,173,.27);
+	font-family: 'Alice', serif;
+	font-size:15px;
+	border-radius:5px;
+
+	border-width:30px;
+	margin-top:0px;
+
+	margin-right: 3%;
+	margin-left: 60%;
+
+}
+fieldset input{
+	margin:10px;
+
+}
+fieldset{
+
+	border-radius:5px;
+}
+input:checked {
+    height: 10px;
+    width: 10px;
+}
+legend{
+	}
+
+header{
+	background-color:#242424;
+	min-width: 100%;
+}
+
+a:link{
+	text-decoration: none;
+	color: NavajoWhite;
+
+}
+
+a:hover{
+	color:White;
+}
+
+a:visited{
+	color:NavajoWhite;
+}
+
+.logo{
+	margin-left:10px;
+	margin-top:4px;
+}
+
+.title{
+	text-align:center;
+	font-family: 'Alice', serif;
+/*	font-style: italic;*/
+	text-transform: 2;
+
+	color:#242424;
+
+}
+
+article img{
+	display:inline-block;
+
+}
+
+.specifics{
+	float:right;
+	margin-top:1%;
+	position:relative;
+	display:inline-block;
+	
+	margin-right:3%;
+	
+	
+
+}
+
+
+.ingred{
+	background-color:rgba(255,222,173,.2);
+
+	border-radius: 10px;
+	margin-bottom:20px;
+}
+
+.dir{
+	background-color:rgba(255,222,173,.2);
+
+	font-family: 'Josefin Slab', serif;
+	border-radius: 10px;
+}
+
+.ingred h2{
+	background-color:#242424;
+	font-family: 'Alice', serif;
+
+	color:NavajoWhite;
+	
+}
+
+.dir h2{
+	font-family: 'Alice', serif;
+
+	background-color:#242424;
+	color:NavajoWhite;
+}
+
+.specifics ul li {
+	font-family: 'Josefin Slab', serif;
+
+	font-size:20px;
+	
+}
+.specifics ol li {
+	font-family: 'Josefin Slab', serif;
+
+	font-size:20px;
+}
+
+
+
+.ingred ul li{
+	font-family: 'Josefin Slab', serif;
+	margin-bottom: 8px;
+	margin-right:20px;
+}
+.dir ol li{
+	margin-bottom: 8px;
+
+}
+footer{
+	text-align: center;
+	font-size:8px;
+	margin-bottom:2px;
+	padding: 1% 0px;
+	background-color:#242424;
+	color:LightSalmon;
+}
