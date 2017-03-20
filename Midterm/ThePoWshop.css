@@ -1,0 +1,128 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	margin:2px;
+}
+h1{
+
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	
+	padding-top: 2%;
+	color:white;
+	text-decoration: none;
+}
+p{
+	font-family: 'Josefin Slab', serif;
+}
+header{
+	background-image: url("asimwater.jpg");
+		background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+h1 a{padding-top: 5%;
+	opacity: 0.8;
+	text-decoration: none;
+	color:white;
+	font-size: 300%;
+
+}
+h1 a:visited{
+	color:white;
+}
+nav{
+	padding-top:8%;
+	padding-bottom: 15%;
+	text-align: center;
+	
+}
+ul li{
+	display: inline-block;
+	padding-right:10%;
+	text-shadow:rgb(02,22,100);
+	font-size: 120%;
+
+}
+ul li a:link{
+	color:white;
+}
+ul li a:hover{
+	color:#a0b2df;
+}
+ul li a:visited{
+	color:white;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+
+}
+.images{
+	text-align: center;
+	background-color: antiquewhite;
+	margin-bottom: 3%;
+}
+.images a{
+	display: inline-block;
+	background-color: rgba(40,40,40,0.1);
+	opacity: 0.5;
+	text-decoration: none;
+	font-size: 150%;
+}
+
+.images a:link{
+	color:white;
+
+}
+.images a:visited{
+	color:white;
+}
+.images a:hover{
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.images p{
+	text-align: center;
+
+}
+
+.donate{
+	margin: 4%;
+}
+
+.donate h2{
+	text-align: center;
+	color: #a0b2df;;
+}
+
+.donate {
+	text-align: center;
+}
+
+.dontate img{
+	margin-top: 5%;
+}
+
+.donate p{
+	font-size: 200%;
+	word-wrap:break-word;
+}
+
+.close{
+	margin:10px;
+	font-size: 50%;
+}
+
+.somal a{
+	color:Aqua;
+
+}
+
+.somal a:visited{
+	color:Aqua;
+}

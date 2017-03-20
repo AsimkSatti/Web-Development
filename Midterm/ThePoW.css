@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	margin:2px;
+	z-index: 100;
+}
+h1{
+	padding-top: 5%;
+	text-align: center;
+	opacity: 0.8;
+	
+
+
+}
+
+h1 a{
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 300%;
+	
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	
+
+}
+ul li a{
+	transition: z-index .04s;
+
+}
+ul li a:link{
+	
+	color:white;
+
+}
+ul li a:hover{
+	color:#a0b2df;
+	z-index: 200;
+	background-image: url("asimwater.jpg");
+	background-position: bottom;
+	opacity:0.01;
+	transition: opacity 3s;
+	transition-delay: 1s;
+
+}
+ul li a:visited{
+	color:white;
+}
+header{
+	background-image: url("asimwater.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 25%;
+
+
+}
+nav{
+	padding-top:0%;
+	padding-bottom: 0%;
+
+	background-color:antiquewhite;
+
+}
+
+ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+
+}
+
+
+ul li{
+	display: inline-block;
+	list-style-type: none;
+	list-style: none;
+	text-decoration: none;
+
+	margin:0% 0% ;	
+	background-size:auto;
+	line-height: 236px;
+	font-size: 200%;
+	width: 150px;
+	font-family: 'Josefin Slab', serif;
+	font-variant: small-caps;
+	background-size: cover;
+	background-image: url("drop.png");
+	
+
+}
+p{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:5%;
+	font-family: 'Josefin Slab', serif;
+	font-size: 50px;
+
+}
+
+.center {
+	text-align: center;
+}
