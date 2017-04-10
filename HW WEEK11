@@ -1,0 +1,5 @@
+
+Based off of the feedback from my midterm presentation, I decided to add a simple scroll function with some JQuery.
+This way the paragraph text goes from an opacity of 0 to 1, once the page reaches the bottom of the iteam.
+
+file:///C:/Users/Asim%20Satti/Desktop/HTML%20Library/Midterm/ThePowabout.html
