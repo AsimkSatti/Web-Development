@@ -1,0 +1,280 @@
+*{
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:1268px;
+	}
+		.UF{
+		background-color: gren;
+
+		font-family: 'Rationale', sans-serif;
+
+		display: inline-block;
+		font-size: 90px;
+		padding-top: 0;
+		padding-left: 5%;
+	
+	}
+	.CA{
+		
+		display: inline-block;
+
+		font-family: 'Poiret One', cursive;
+		padding-left: 2%;
+		font-size: 79px;
+	
+		padding-top: 0%;
+	}
+
+	.head{
+		background-color: #111111;
+		padding-bottom: ;
+		margin-bottom:0px;
+	}
+	.box{
+		position:absolute;
+		margin-top: 140px;
+		margin-left: 185px;
+		background-color: white;
+		height:50px;
+		width:975px;
+
+	}
+	.head ul li{
+		padding-top: 10px;
+		font-family: 'Poiret One', cursive;
+		font-size: 20px;
+		display: inline-block;
+		color:gold;
+		padding-right: 9%;
+		padding-left: 49%;
+	}
+	.details ul li{
+		display: inline-block;
+		padding-top: 10px;
+		font-family: 'Poiret One', cursive;
+		font-size: 20px;
+		display: inline-block;
+		color:black;
+		padding-right: 9%;
+		padding-left: 20%;
+	
+	}
+	.product{
+		display: inline-block;
+	
+
+	}
+	ol li{
+		color:#333333;
+		font-size: 15px;
+		font-weight: 900;
+		line-height: 30px;
+		font-family: 'Rationale', sans-serif;
+		text-align: right;
+		padding-top: 30px;
+		padding-left: 10px;
+
+	}
+	a:visited{
+		color:white;
+		text-decoration: none;
+	}
+	a:hover{
+		color:white;
+			text-decoration: none;
+	}
+	a:link{
+		color:white;
+			text-decoration: none;
+	}
+	.tee{
+		position: absolute;
+		display: inline-block;
+		margin-top: 150px;
+
+		margin-left: 41%;
+	}
+	h1{
+		font-size: 40px;
+		display: inline-block;
+		font-family: 'Rationale', sans-serif;
+
+	}
+	pre{
+		font-size: 40px;
+		display: inline-block;
+		font-family: 'Rationale', sans-serif;
+
+	}
+	.details{
+
+
+		padding-left: 20px;
+		display: inline-block;
+		width: 350px;
+		font-family: 'Rationale', sans-serif;
+	}
+	.product{
+		position:absolute;
+		padding-top: 0px;
+	}
+	.all{
+		display:inline;
+		padding-left: 1%;
+
+	}
+	.cells{
+		margin-left: 500px;
+		display: inline-block;
+	}
+	#cell1{
+		display: inline-block;
+		width:113px;
+		height:150px;
+	}
+		#cell2{
+		display: inline-block;
+		width:113px;
+		height:150px;
+	}
+	#cell3{
+		display: inline-block;
+		width:113px;
+		height:150px;
+	}
+
+
+	.solid{
+		background-image: url("../UFimgs/shugal.png");
+		background-attachment: fixed;
+		display: inline-block;
+		padding-left: 0px;
+		width:1268px;
+		height:300px;
+		background-attachment: fixed;
+		margin-bottom: 50px;
+	}
+	.price{
+		padding-left: 75%;
+		position: absolute;
+	}
+	h5{
+		opacity: 0.3;
+		color:#111111;
+
+	}
+	h4{
+		font-family: 'Rationale', sans-serif;
+		font-size: 30px;
+		}
+
+		@media only screen and (max-width:768px),screen and (max-device-width:768px){
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:400px;
+}
+.tee{
+	margin:0px;
+	padding:0px;
+	padding-top: 150px;
+	padding-left: 50px;
+}
+.tee h1, pre{
+	font-size: 30px;
+}
+.box{
+	margin:0px;
+	padding:0px;
+	height:40px;
+	margin-top: 143px;
+}
+
+.solid{
+	background-image:url(../UFimgs/Yukkimob.png);
+	display: inline-block;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		width:400px;
+		height:300px;
+		background-attachment: fixed;
+		margin: 0px;
+
+
+}
+ul li{
+	display: inline-block;
+}
+.details{
+	width:150px;
+}
+
+.details h3{
+	font-size: 10px;
+}
+.details ul li{
+	font-size: 8px;
+}
+.products{
+ display: inline-block;
+}
+.price{
+	margin:0px;
+	padding:0px;
+	margin-top: 100px;
+	margin-left:330px;
+}
+
+.all{
+	 display: inline-block;
+}
+.cells{
+
+
+	padding:0px;
+	margin:0px;
+
+	padding-left: 150px;
+}
+	#cell1{
+		display: inline-block;
+		width:75px;
+		height:100px;
+	}
+		#cell2{
+		display: inline-block;
+		width:75px;
+		height:100px;
+	}
+	#cell3{
+		display: inline-block;
+		width:75px;
+		height:100px;
+	}
+
+
+.product{
+	position: static;
+	width:300px;
+	margin:0px;
+	padding:0px;
+	margin-left: 150px;
+}
+
+
+#main{
+	margin:0px;
+	padding:0px;
+	margin-left:200px;
+}
+
+
+
+
+
+
+

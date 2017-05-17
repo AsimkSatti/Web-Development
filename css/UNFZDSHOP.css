@@ -1,0 +1,360 @@
+*{
+
+		margin:0;
+		padding:0;
+	}
+	.container{
+		width:1267px;
+	}
+		.UF{
+		
+		font-family: 'Rationale', sans-serif;
+		
+
+		display: inline-block;
+		font-size: 90px;
+		padding-top: 0;
+		padding-left: 5%;
+	
+	}
+	.CA{
+		
+		display: inline-block;
+
+		font-family: 'Poiret One', cursive;
+		padding-left: 2%;
+		font-size: 79px;
+	
+		padding-top: 0%;
+	}
+
+	.head{
+		position: ;
+		display: inline-block;
+		background-color: #111111;
+		padding-bottom: ;
+		margin-top: 0px;
+		margin-top: 0px;
+		display: block;
+
+		margin-bottom:0px;
+	}
+	.bx{
+		position:absolute;
+		margin-top: 140px;
+		margin-left: 185px;
+		background-color: white;
+		height:20px;
+		width:975px;
+
+	}
+	ul{
+		margin-top: -4px;
+	}
+	ul li{
+		padding-top: 10px;
+		font-family: 'Poiret One', cursive;
+		font-size: 20px;
+
+		display: inline-block;
+		color:gold;
+		padding-right: 9%;
+		padding-left: 10.5%;
+	}
+	aside{
+
+		position: absolute;
+
+
+		width: 200px;
+		height:300px;
+		color:333333;
+		border-radius: 0px 10px  10px 0px;
+	}
+	.clothes{
+
+		padding-left: 300px;
+
+	}
+	#shirt1{
+		width:240px;
+		height:300px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt2{
+		width:240px;
+		height:300px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt3{
+		width:240px;
+		height:300px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt4{
+			opacity: 0.65;
+		width:240px;
+		height:300px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt5{
+			opacity: 0.65;
+		width:240px;
+		height:300px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+	
+
+	#test{
+		display: inline-block;
+		padding-left: 0px;
+		width:1267px;
+		display: block;
+		height:400px;
+		background-attachment: fixed;
+		
+	
+	}
+	.soldout{
+		text-decoration: line-through;
+		opacity: 0.5;
+	}
+	ol li{
+		color:#333333;
+		font-size: 15px;
+		font-weight: 900;
+		line-height: 30px;
+		font-family: 'Rationale', sans-serif;
+		text-align: right;
+		padding-top: 30px;
+		padding-left: 10px;
+
+	}
+	aside:hover{
+		transition: opacity 2s;
+		opacity:0.8;
+	}
+	.box{
+	
+	}
+	a:visited{
+		color:white;
+		text-decoration: none;
+	}
+	a:hover{
+		color:white;
+			text-decoration: none;
+	}
+	a:link{
+		color:white;
+			text-decoration: none;
+	}
+
+	.solid{
+		background-image: url("../UFimgs/scraw.png");
+		display: inline-block;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		width:1267px;
+		height:300px;
+		background-attachment: fixed;
+		margin: 0px;
+	}
+	
+	a: hover{
+	color:gold;
+}
+a:link{
+		text-decoration: none;
+		color:white;
+		display: initial;
+	}
+
+a:hover{
+		text-decoration: none;
+		color:gold;
+	}
+
+	a:visited{
+		color:white;
+	}
+
+a:visited:hover{
+		color:gold;
+	}
+
+
+
+		
+
+/* MOBILE DEVELOPMENT */
+
+@media only screen and (max-width:768px),screen and (max-device-width:768px){
+	*{
+		padding:0px;
+		margin:0px; 
+	}
+	.container{
+		width:400px;
+	}
+
+	.solid{
+		display: inline-block;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		
+		background-attachment: fixed;
+		margin: 0px;
+
+	}
+
+	.solid{
+		background-image: url(../UFimgs/shopyea.png);
+		width:400px;
+		height:300px;
+	}
+
+	ul li{
+		padding-top: 10px;
+		display: inline-block;
+		margin:0px;
+		padding:0px;
+		font-family: 'Poiret One', cursive;
+		font-size: 20px;
+		padding-left: 20px;
+		display: inline-block;
+		color:gold;
+
+	}
+
+	
+.duo{
+
+}
+
+aside{
+	display: none;
+}
+
+
+
+
+aside{
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-right:1px;
+}
+ol li{
+		color:#333333;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 40px;
+		font-family: 'Rationale', sans-serif;
+		text-align: right;
+		float:left;
+		padding-top: 10px;
+		padding-left: 10px;
+
+	}
+
+.clothes{
+	display: inline-block;
+	margin-left:0px;
+	padding: 0px;
+}
+
+
+	.clothes{
+
+
+	}
+	#shirt1{
+		width:120px;
+		height:150px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt2{
+		width:120px;
+		height:150px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt3{
+		width:120px;
+		height:150px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt4{
+			opacity: 0.65;
+		width:120px;
+		height:150px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+		#shirt5{
+			opacity: 0.65;
+		width:120px;
+		height:150px;
+		background-repeat: no-repeat;
+		padding-top:15px;
+		padding-left: 60px;
+
+	
+
+
+	}
+	
+}
